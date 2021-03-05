@@ -31,6 +31,8 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+imap jj <Esc>
+
 let g:NERDTreeChDirMode = 2  " Change cwd to parent node
 
 let g:NERDTreeMinimalUI = 1  " Hide help text
